@@ -1,0 +1,16 @@
+.about {
+    margin-top: 54px;
+}
+
+.collapse-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .about { margin-top: 22px; }
+    .collapse-stack { gap: 20px; }
+}

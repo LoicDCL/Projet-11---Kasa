@@ -1,0 +1,29 @@
+.gallery {
+    margin-top: 43px;
+    background: var(--muted);
+    border-radius: var(--radius-lg);
+    padding: 57px 50px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 940px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+    .gallery { padding: 40px 30px; }
+}
+
+@media (max-width: 767px) {
+    .gallery {
+        background: transparent;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,29 @@
+.housing-details {
+  margin-top: 26px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 76px;
+}
+
+.housing-details__equipment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+@media (max-width: 940px) {
+  .housing-details {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .housing-details {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

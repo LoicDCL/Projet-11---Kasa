@@ -1,0 +1,25 @@
+.footer {
+    background: var(--black);
+    color: #fff;
+    padding: 63px 0;
+    text-align: center;
+}
+
+.f-logo {
+    width: 122px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer__copy {
+    margin-top: 29px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .footer { padding: 40px 0; }
+    .f-logo { width: 86px; }
+    .footer__copy { font-size: 12px; margin-top: 20px; }
+}
